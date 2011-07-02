@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA27ABBC13A3FD55000233FA /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AA27ABB913A3FD55000233FA /* GTMNSString+HTML.m */; };
+		AA27ABBD13A3FD55000233FA /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AA27ABBA13A3FD55000233FA /* GTMNSString+HTML.h */; };
+		AA27ABBE13A3FD55000233FA /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = AA27ABBB13A3FD55000233FA /* GTMDefines.h */; };
+		AA27ABCA13A3FDDB000233FA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AA27ABC813A3FDDB000233FA /* NSString+HTML.m */; };
+		AA27ABCB13A3FDDB000233FA /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AA27ABC913A3FDDB000233FA /* NSString+HTML.h */; };
+		AA3B0A7513A41C80005AE44E /* XMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3B0A7313A41C80005AE44E /* XMLElement.h */; };
+		AA3B0A7613A41C80005AE44E /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B0A7413A41C80005AE44E /* XMLElement.m */; };
+		AAB254C213A47580000AC58E /* XMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB254C013A47580000AC58E /* XMLDocument.m */; };
+		AAB254C313A47580000AC58E /* XMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB254C113A47580000AC58E /* XMLDocument.h */; };
+		AABF58EA13A31BC80002FCB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABF58E913A31BC80002FCB4 /* Foundation.framework */; };
+		AAD0D8B613A5706400055F92 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0D8B513A5706400055F92 /* Log.h */; };
+		AAD0D8C213A57A8C00055F92 /* URLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0D8C013A57A8C00055F92 /* URLObject.h */; };
+		AAD0D8C313A57A8C00055F92 /* ULRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD0D8C113A57A8C00055F92 /* ULRObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA27ABB913A3FD55000233FA /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		AA27ABBA13A3FD55000233FA /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		AA27ABBB13A3FD55000233FA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		AA27ABC813A3FDDB000233FA /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		AA27ABC913A3FDDB000233FA /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		AA3B0A7313A41C80005AE44E /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLElement.h; sourceTree = "<group>"; };
+		AA3B0A7413A41C80005AE44E /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLElement.m; sourceTree = "<group>"; };
+		AAB254C013A47580000AC58E /* XMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDocument.m; sourceTree = "<group>"; };
+		AAB254C113A47580000AC58E /* XMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDocument.h; sourceTree = "<group>"; };
+		AABF58E613A31BC80002FCB4 /* libxmlparser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxmlparser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF58E913A31BC80002FCB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AABF58ED13A31BC80002FCB4 /* xmlparser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xmlparser-Prefix.pch"; sourceTree = "<group>"; };
+		AAD0D8B513A5706400055F92 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log.h; path = ../../common/Log.h; sourceTree = "<group>"; };
+		AAD0D8C013A57A8C00055F92 /* URLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLObject.h; path = ../../urlloader/urlloader/URLObject.h; sourceTree = "<group>"; };
+		AAD0D8C113A57A8C00055F92 /* ULRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULRObject.m; path = ../../urlloader/urlloader/ULRObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABF58E313A31BC80002FCB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABF58EA13A31BC80002FCB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA27ABB713A3FD3E000233FA /* Google Toolbox for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				AA27ABBA13A3FD55000233FA /* GTMNSString+HTML.h */,
+				AA27ABB913A3FD55000233FA /* GTMNSString+HTML.m */,
+				AA27ABBB13A3FD55000233FA /* GTMDefines.h */,
+			);
+			name = "Google Toolbox for Mac";
+			sourceTree = "<group>";
+		};
+		AABF58DB13A31BC80002FCB4 = {
+			isa = PBXGroup;
+			children = (
+				AABF58EB13A31BC80002FCB4 /* xmlparser */,
+				AABF58E813A31BC80002FCB4 /* Frameworks */,
+				AABF58E713A31BC80002FCB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABF58E713A31BC80002FCB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABF58E613A31BC80002FCB4 /* libxmlparser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABF58E813A31BC80002FCB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABF58E913A31BC80002FCB4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABF58EB13A31BC80002FCB4 /* xmlparser */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8BE13A578AC00055F92 /* classes */,
+				AA27ABC913A3FDDB000233FA /* NSString+HTML.h */,
+				AA27ABC813A3FDDB000233FA /* NSString+HTML.m */,
+				AA3B0A7313A41C80005AE44E /* XMLElement.h */,
+				AA3B0A7413A41C80005AE44E /* XMLElement.m */,
+				AAB254C113A47580000AC58E /* XMLDocument.h */,
+				AAB254C013A47580000AC58E /* XMLDocument.m */,
+				AA27ABB713A3FD3E000233FA /* Google Toolbox for Mac */,
+				AABF58EC13A31BC80002FCB4 /* Supporting Files */,
+			);
+			path = xmlparser;
+			sourceTree = "<group>";
+		};
+		AABF58EC13A31BC80002FCB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABF58ED13A31BC80002FCB4 /* xmlparser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD0D8B413A5705A00055F92 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8B513A5706400055F92 /* Log.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		AAD0D8BE13A578AC00055F92 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8BF13A57A8100055F92 /* urlloader */,
+				AAD0D8B413A5705A00055F92 /* common */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		AAD0D8BF13A57A8100055F92 /* urlloader */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8C013A57A8C00055F92 /* URLObject.h */,
+				AAD0D8C113A57A8C00055F92 /* ULRObject.m */,
+			);
+			name = urlloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AABF58E413A31BC80002FCB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA27ABBD13A3FD55000233FA /* GTMNSString+HTML.h in Headers */,
+				AA27ABBE13A3FD55000233FA /* GTMDefines.h in Headers */,
+				AA27ABCB13A3FDDB000233FA /* NSString+HTML.h in Headers */,
+				AA3B0A7513A41C80005AE44E /* XMLElement.h in Headers */,
+				AAB254C313A47580000AC58E /* XMLDocument.h in Headers */,
+				AAD0D8B613A5706400055F92 /* Log.h in Headers */,
+				AAD0D8C213A57A8C00055F92 /* URLObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AABF58E513A31BC80002FCB4 /* xmlparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABF58F013A31BC80002FCB4 /* Build configuration list for PBXNativeTarget "xmlparser" */;
+			buildPhases = (
+				AABF58E213A31BC80002FCB4 /* Sources */,
+				AABF58E313A31BC80002FCB4 /* Frameworks */,
+				AABF58E413A31BC80002FCB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xmlparser;
+			productName = xmlparser;
+			productReference = AABF58E613A31BC80002FCB4 /* libxmlparser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABF58DD13A31BC80002FCB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clov3r.net;
+			};
+			buildConfigurationList = AABF58E013A31BC80002FCB4 /* Build configuration list for PBXProject "xmlparser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABF58DB13A31BC80002FCB4;
+			productRefGroup = AABF58E713A31BC80002FCB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABF58E513A31BC80002FCB4 /* xmlparser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABF58E213A31BC80002FCB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA27ABBC13A3FD55000233FA /* GTMNSString+HTML.m in Sources */,
+				AA27ABCA13A3FDDB000233FA /* NSString+HTML.m in Sources */,
+				AA3B0A7613A41C80005AE44E /* XMLElement.m in Sources */,
+				AAB254C213A47580000AC58E /* XMLDocument.m in Sources */,
+				AAD0D8C313A57A8C00055F92 /* ULRObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABF58EE13A31BC80002FCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AABF58EF13A31BC80002FCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AABF58F113A31BC80002FCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/xmlparser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlparser/xmlparser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AABF58F213A31BC80002FCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/xmlparser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlparser/xmlparser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABF58E013A31BC80002FCB4 /* Build configuration list for PBXProject "xmlparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABF58EE13A31BC80002FCB4 /* Debug */,
+				AABF58EF13A31BC80002FCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABF58F013A31BC80002FCB4 /* Build configuration list for PBXNativeTarget "xmlparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABF58F113A31BC80002FCB4 /* Debug */,
+				AABF58F213A31BC80002FCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABF58DD13A31BC80002FCB4 /* Project object */;
+}
